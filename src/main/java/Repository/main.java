@@ -4,6 +4,7 @@ import Entities.*;
 
 public class main {
     public static void main(String args[]){
+        System.out.println("Probando");
         Empresa em1 = new Empresa("Mintic","Bogota","12345", 123854);
         System.out.println(em1.getNombre());
         System.out.println(em1.getDireccion());
